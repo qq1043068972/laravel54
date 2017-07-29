@@ -3,7 +3,7 @@
 namespace Faker\Provider;
 
 /**
- * Depends on image generation from http://lorempixel.com/
+ * Depends on images generation from http://lorempixel.com/
  */
 class Image extends Base
 {
@@ -13,7 +13,7 @@ class Image extends Base
     );
 
     /**
-     * Generate the URL that will return a random image
+     * Generate the URL that will return a random images
      *
      * Set randomize to false to remove the random GET parameter at the end of the url.
      *
@@ -30,7 +30,7 @@ class Image extends Base
         
         if ($category) {
             if (!in_array($category, static::$categories)) {
-                throw new \InvalidArgumentException(sprintf('Unknown image category "%s"', $category));
+                throw new \InvalidArgumentException(sprintf('Unknown images category "%s"', $category));
             }
             $url .= "{$category}/";
             if ($word) {
@@ -46,7 +46,7 @@ class Image extends Base
     }
 
     /**
-     * Download a remote random image to disk and return its location
+     * Download a remote random images to disk and return its location
      *
      * Requires curl, or allow_url_fopen to be on in php.ini.
      *
@@ -81,7 +81,7 @@ class Image extends Base
             // use remote fopen() via copy()
             $success = copy($url, $filepath);
         } else {
-            return new \RuntimeException('The image formatter downloads an image from a remote HTTP server. Therefore, it requires that PHP can request remote hosts, either via cURL or fopen()');
+            return new \RuntimeException('The images formatter downloads an images from a remote HTTP server. Therefore, it requires that PHP can request remote hosts, either via cURL or fopen()');
         }
 
         if (!$success) {

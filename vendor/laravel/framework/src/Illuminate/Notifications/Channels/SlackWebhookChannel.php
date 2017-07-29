@@ -57,7 +57,7 @@ class SlackWebhookChannel
         $optionalFields = array_filter([
             'channel' => data_get($message, 'channel'),
             'icon_emoji' => data_get($message, 'icon'),
-            'icon_url' => data_get($message, 'image'),
+            'icon_url' => data_get($message, 'images'),
             'link_names' => data_get($message, 'linkNames'),
             'username' => data_get($message, 'username'),
         ]);

@@ -55,7 +55,7 @@ class ImageTest extends \PHPUnit_Framework_TestCase
         curl_close($curlPing);
 
         if ($httpCode < 200 | $httpCode > 300) {
-            $this->markTestSkipped("LoremPixel is offline, skipping image download");
+            $this->markTestSkipped("LoremPixel is offline, skipping images download");
         }
 
         $file = Image::image(sys_get_temp_dir());

@@ -7,6 +7,8 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
+define('MyStyle','http://localhost:8082/laravel54/public/MyStyle') ;
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader

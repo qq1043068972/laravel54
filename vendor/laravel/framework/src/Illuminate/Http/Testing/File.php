@@ -58,7 +58,7 @@ class File extends UploadedFile
     }
 
     /**
-     * Create a new fake image.
+     * Create a new fake images.
      *
      * @param  string  $name
      * @param  int  $width

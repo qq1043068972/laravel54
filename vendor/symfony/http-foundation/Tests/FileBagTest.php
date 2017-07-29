@@ -122,10 +122,10 @@ class FileBagTest extends TestCase
     {
         $tmpFile = $this->createTempFile();
         $file = new UploadedFile($tmpFile, basename($tmpFile), 'text/plain', 100, 0);
-        $bag = new FileBag(array('image' => array('file' => $file)));
+        $bag = new FileBag(array('images' => array('file' => $file)));
 
         $files = $bag->all();
-        $this->assertEquals($file, $files['image']['file']);
+        $this->assertEquals($file, $files['images']['file']);
     }
 
     protected function createTempFile()

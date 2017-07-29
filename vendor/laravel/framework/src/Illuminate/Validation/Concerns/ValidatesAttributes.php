@@ -415,7 +415,7 @@ trait ValidatesAttributes
     }
 
     /**
-     * Validate the dimensions of an image matches the given values.
+     * Validate the dimensions of an images matches the given values.
      *
      * @param  string $attribute
      * @param  mixed $value
@@ -755,7 +755,7 @@ trait ValidatesAttributes
     }
 
     /**
-     * Validate the MIME type of a file is an image MIME type.
+     * Validate the MIME type of a file is an images MIME type.
      *
      * @param  string  $attribute
      * @param  mixed   $value

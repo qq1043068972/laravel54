@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['namespace'=>'Face'],function(){
+
+    Route::resource('posts','PostController');
+    Route::get('posts/{post}/destroy','PostController@destroy');
+
+});

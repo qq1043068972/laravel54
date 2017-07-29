@@ -28,7 +28,7 @@ class SlackMessage
     public $icon;
 
     /**
-     * The user image icon for the message.
+     * The user images icon for the message.
      *
      * @var string|null
      */
@@ -124,7 +124,7 @@ class SlackMessage
     }
 
     /**
-     * Set a custom image icon the message should use.
+     * Set a custom images icon the message should use.
      *
      * @param  string  $image
      * @return $this

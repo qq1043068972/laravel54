@@ -24,7 +24,7 @@ class MimeTypeTest extends TestCase
 
     public function testGuessImageWithoutExtension()
     {
-        $this->assertEquals('image/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test'));
+        $this->assertEquals('images/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test'));
     }
 
     public function testGuessImageWithDirectory()
@@ -38,12 +38,12 @@ class MimeTypeTest extends TestCase
     {
         $guesser = MimeTypeGuesser::getInstance();
         $guesser->register(new FileBinaryMimeTypeGuesser());
-        $this->assertEquals('image/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test'));
+        $this->assertEquals('images/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test'));
     }
 
     public function testGuessImageWithKnownExtension()
     {
-        $this->assertEquals('image/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test.gif'));
+        $this->assertEquals('images/gif', MimeTypeGuesser::getInstance()->guess(__DIR__.'/../Fixtures/test.gif'));
     }
 
     public function testGuessFileWithUnknownExtension()

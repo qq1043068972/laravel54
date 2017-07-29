@@ -19,7 +19,7 @@ class FileFactory
     }
 
     /**
-     * Create a new fake image.
+     * Create a new fake images.
      *
      * @param  string  $name
      * @param  int  $width
@@ -32,7 +32,7 @@ class FileFactory
     }
 
     /**
-     * Generate a dummy image of the given width and height.
+     * Generate a dummy images of the given width and height.
      *
      * @param  int  $width
      * @param  int  $height

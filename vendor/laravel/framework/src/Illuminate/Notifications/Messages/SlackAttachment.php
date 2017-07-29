@@ -56,7 +56,7 @@ class SlackAttachment
     public $markdown;
 
     /**
-     * The attachment's image url.
+     * The attachment's images url.
      *
      * @var string
      */
@@ -188,7 +188,7 @@ class SlackAttachment
     }
 
     /**
-     * Set the image URL.
+     * Set the images URL.
      *
      * @param  string  $url
      * @return $this
