@@ -18,12 +18,7 @@
         <br>
     </div><!-- /.blog-main -->
 
-
-    @if(Session::has('error'))
-        <div class="alert alert-danger">
-            <a href="#" class="close" data-dismiss="alert">&times;</a>
-            <strong>创建文章失败！</strong>
-        </div>
-    @endif
-
+@endsection
+@section('js')
+    <script type="text/javascript" src="{{MyStyle}}/js/wangEditor.min.js"></script>
 @endsection

@@ -39,27 +39,8 @@
 
         <div style="height: 20px;"></div>
 
-        @if(Session::has('success'))
-        <div class="alert alert-success alert-dismissable">
-            <button type="button" class="close" data-dismiss="alert"
-                    aria-hidden="true">
-                &times;
-            </button>
-            {{\Illuminate\Support\Facades\Session::get('success')}}
-        </div>
-        @endif
-
-        @if(Session::has('error'))
-
-            <div class="alert alert-danger alert-dismissable">
-                <button type="button" class="close" data-dismiss="alert"
-                        aria-hidden="true">
-                    &times;
-                </button>
-                {{\Illuminate\Support\Facades\Session::get('error')}}
-            </div>
-        @endif
-
+        @include('face.layout.success')
+        @include('face.layout.error')
 
             @foreach($posts as $post)
             <div class="blog-post">

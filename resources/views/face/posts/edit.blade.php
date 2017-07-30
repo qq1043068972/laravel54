@@ -15,7 +15,7 @@
             <div class="form-group">
                 <label>内容</label>
                 <textarea id="content" name="content" class="form-control" style="height:400px;max-height:500px;"  placeholder="这里是内容">
-                    {{$post->content}}
+                    {!! $post->content !!}
 
                 </textarea>
             </div>
@@ -24,11 +24,7 @@
         <br>
     </div><!-- /.blog-main -->
 
-    @if(Session::has('error'))
-        <div class="alert alert-danger">
-            <a href="#" class="close" data-dismiss="alert">&times;</a>
-            <strong>修改文章失败！</strong>
-        </div>
-    @endif
-
+@endsection
+@section('js')
+    <script type="text/javascript" src="{{MyStyle}}/js/wangEditor.min.js"></script>
 @endsection

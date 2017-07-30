@@ -11,15 +11,15 @@ class PostController extends Controller
     public function index() {
 
         $posts = Post::orderBy('id','desc')->paginate(4);
-        return view('face.index',compact('posts'));
+        return view('face.posts.index',compact('posts'));
     }
 
     public function show(Post $post) {
-        return view('face.show',compact('post'));
+        return view('face.posts.show',compact('post'));
     }
 
     public function create() {
-        return view('face.create');
+        return view('face.posts.create');
     }
 
     public function store() {
@@ -32,16 +32,16 @@ class PostController extends Controller
     }
 
     public function edit(Post $post) {
-        return view('face.edit',compact('post'));
+        return view('face.posts.edit',compact('post'));
     }
 
     public function update(Post $post) {
         $post->title = request()->input('title');
         $post->content = request()->input('content');
         if($post->save()){
-            return redirect('/posts');
+            return redirect('/posts')->with('success','修改成功!');
         }else{
-            return back()->with('error');
+            return back()->with('error','修改失败!');
         }
     }
 

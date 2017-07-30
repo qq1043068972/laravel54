@@ -11,13 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('login','Face\LoginController@index');
+Route::post('login','Face\LoginController@login');
+Route::get('logout','Face\LoginController@logout');
 
-Route::group(['namespace'=>'Face'],function(){
+Route::get('register','Face\RegisterController@create');
+Route::post('register','Face\RegisterController@store');
 
-    Route::resource('posts','PostController');
-    Route::get('posts/{post}/destroy','PostController@destroy');
+Route::group([],function(){
+
+    Route::get('user/me/setting','Face\UserController@setting');
+    Route::post('user/me/setting','Face\UserController@settingStore');
+    Route::resource('posts','Face\PostController');
+    Route::get('posts/{post}/destroy','Face\PostController@destroy');
 
 });

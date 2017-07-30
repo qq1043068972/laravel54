@@ -53,7 +53,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{MyStyle}}/layui/jquery-3.1.1.js"></script>
 <script src="{{MyStyle}}/bootstrap337/js/bootstrap.js"></script>
-<script type="text/javascript" src="{{MyStyle}}/js/wangEditor.min.js"></script>
 <script src="{{MyStyle}}/js/ylaravel.js"></script>
 <script src="{{MyStyle}}/layui/layui.js"></script>
 <script type="text/javascript" src="{{MyStyle}}/js/MyLayer.js"></script>
