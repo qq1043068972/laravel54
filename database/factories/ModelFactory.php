@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+$factory->define(App\Models\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [
@@ -30,3 +30,4 @@ $factory->define(App\Models\Post::class, function (Faker\Generator $faker) {
         'user_id' => $faker->numberBetween(1,200)
     ];
 });
+

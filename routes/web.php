@@ -20,9 +20,14 @@ Route::post('register','Face\RegisterController@store');
 
 Route::group([],function(){
 
+    //个人设置
     Route::get('user/me/setting','Face\UserController@setting');
     Route::post('user/me/setting','Face\UserController@settingStore');
+
+    //文章
     Route::resource('posts','Face\PostController');
     Route::get('posts/{post}/destroy','Face\PostController@destroy');
 
+    //评论
+    Route::post('posts/comment','Face\PostController@comment');
 });

@@ -23,7 +23,7 @@ class LoginController extends Controller
         $is_remember = boolval(request()->input('is_remember'));
 
         if(Auth::attempt($user,$is_remember)){
-            return redirect('posts');
+            return redirect('/posts');
         }else{
             return back()->withErrors('邮箱或密码错误!');
         }
@@ -31,6 +31,7 @@ class LoginController extends Controller
     }
 
     public function logout() {
-
+        Auth::logout();
+        return redirect('/login');
     }
 }

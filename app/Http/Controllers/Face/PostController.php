@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers\Face;
 
+use App\Models\Comment;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 
 class PostController extends Controller
 {
@@ -15,7 +18,8 @@ class PostController extends Controller
     }
 
     public function show(Post $post) {
-        return view('face.posts.show',compact('post'));
+        $user = Auth::user();
+        return view('face.posts.show',compact('post','user'));
     }
 
     public function create() {
@@ -23,7 +27,11 @@ class PostController extends Controller
     }
 
     public function store() {
-        $post = Post::create(request(['title','content']));
+
+        $user_id = Auth::id();
+        $postArr = request(['title','content']);
+        $postArr['user_id'] = $user_id;
+        $post = Post::create($postArr);
         if(!empty($post)){
             return redirect('/posts');
         }else{
@@ -36,6 +44,14 @@ class PostController extends Controller
     }
 
     public function update(Post $post) {
+
+        $this->authorize('update',$post);
+
+        $this->validate(request(),[
+            'title' => 'required',
+            'content' => 'required'
+        ]);
+
         $post->title = request()->input('title');
         $post->content = request()->input('content');
         if($post->save()){
@@ -53,5 +69,21 @@ class PostController extends Controller
         }
     }
 
+    public function comment() {
+
+        $this->validate(request(),[
+            'user_id' => 'required',
+            'post_id' => 'required',
+            'content' => 'required'
+        ]);
+
+        if(empty(Comment::create(request(['content','user_id','post_id'])))){
+            return back()->with('error','评论失败');
+        }else{
+            return back();
+        }
+
+
+    }
     
 }
