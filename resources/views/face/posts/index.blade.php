@@ -45,10 +45,14 @@
             @foreach($posts as $post)
             <div class="blog-post">
                 <h1 class="blog-post-title"><a href="{{url('posts')}}/{{$post->id}}" >{{$post->title}}</a></h1>
-                <p class="blog-post-meta">{{$post->updated_at->toFormattedDateString()}} by <a href="{{url('user/')}}{{$post->user_id}}">{{$post->user->name}}</a></p>
+                <p class="blog-post-meta">{{$post->updated_at->toFormattedDateString()}} by <a href="{{url('user/me')}}/{{$post->user_id}}">{{$post->user->name}}</a></p>
 
                 <p>{!! str_limit($post->content) !!}</p>
-                <p class="blog-post-meta">赞 0  | 评论 0</p>
+
+
+                {{--post模型里 有hasMany对应的方法名__count    --}}
+                <p class="blog-post-meta">赞 {{$post->zans_count}}  | 评论 {{$post->comments_count}}</p>
+                {{--<p class="blog-post-meta">赞 {{$post->zans->count()}}  | 评论 {{$post->comments->count()}}</p>--}}
             </div>
             @endforeach
         {{$posts->links()}}

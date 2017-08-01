@@ -24,10 +24,20 @@ Route::group([],function(){
     Route::get('user/me/setting','Face\UserController@setting');
     Route::post('user/me/setting','Face\UserController@settingStore');
 
+    //个人中心
+    Route::get('user/me/{user}','Face\UserController@userCentre');
+    Route::any('user/{user}/fan','Face\UserController@userFan');
+    Route::any('user/{user}/unfan','Face\UserController@userUnFan');
+
     //文章
     Route::resource('posts','Face\PostController');
     Route::get('posts/{post}/destroy','Face\PostController@destroy');
 
     //评论
     Route::post('posts/comment','Face\PostController@comment');
+
+    //赞
+    Route::get('posts/{post}/zan','Face\PostController@zan');
+    Route::get('posts/{post}/unzan','Face\PostController@unzan');
+
 });

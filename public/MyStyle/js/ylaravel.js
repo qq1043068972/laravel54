@@ -8,3 +8,4 @@ editor.config.uploadHeaders = {
 };
 
 editor.create();
+

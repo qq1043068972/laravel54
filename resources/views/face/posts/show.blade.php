@@ -20,13 +20,21 @@
 
             </div>
 
-            <p class="blog-post-meta">{{$post->updated_at->toFormattedDateString()}} by <a href="#">{{$post->user->name}}</a></p>
+            <p class="blog-post-meta">{{$post->updated_at->toFormattedDateString()}} by <a href="{{url('user/me')}}/{{$post->user_id}}">{{$post->user->name}}</a></p>
 
             <p><p>{!! $post->content !!}</p><p><br></p>
-            <div>
-                <a href="{{'posts/'.$post->id.'/zan'}}" type="button" class="btn btn-primary btn-lg">赞</a>
 
+
+            {{--zan方法应该跟一个属性样用，不能加括号的，但是不知道为啥，必须要加括号了,否则提示不能在Call to a member function exists() on null--}}
+            @if($post->zan()->exists())
+            <div>
+                <a href="{{url('posts/'.$post->id.'/unzan')}}" type="button" class="btn btn-primary btn-lg">取消赞</a>
             </div>
+            @else
+            <div>
+                <a href="{{url('posts/'.$post->id.'/zan')}}" type="button" class="btn btn-primary btn-lg">赞</a>
+            </div>
+            @endif
         </div>
 
         <div class="panel panel-default">

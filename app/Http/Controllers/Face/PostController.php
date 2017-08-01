@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Face;
 
 use App\Models\Comment;
 use App\Models\Post;
+use App\Models\Zan;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
@@ -13,7 +14,11 @@ class PostController extends Controller
 {
     public function index() {
 
-        $posts = Post::orderBy('id','desc')->paginate(4);
+        //withCount 填表名
+        $posts = Post::orderBy('id','desc')->withCount(['comments','zans'])->paginate(4);
+        $posts->load('user');
+        //$posts->load('zan');
+
         return view('face.posts.index',compact('posts'));
     }
 
@@ -82,8 +87,23 @@ class PostController extends Controller
         }else{
             return back();
         }
+    }
 
+    public function zan(Post $post) {
 
+        $zanArr = [
+            'user_id'=>Auth::id(),
+            'post_id'=>$post->id
+        ];
+
+        Zan::firstOrCreate($zanArr);
+        return back();
+    }
+
+    public function unzan(Post $post) {
+        $zan = Zan::where('post_id',$post->id)->where('user_id',Auth::id());
+        $zan->delete();
+        return back();
     }
     
 }
