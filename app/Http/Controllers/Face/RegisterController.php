@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Face;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -26,7 +26,7 @@ class RegisterController extends Controller
         $user = User::create(compact('name','email','password'));
 
         if(!empty($user)){
-            return redirect('login');
+            return redirect('login')->with('success','注册成功!');
         }else{
             return back()->with('error','注册失败!');
         }

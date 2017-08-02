@@ -34,6 +34,8 @@ class UserController extends Controller
 
     public function userCentre(User $user) {
 
+
+        //dd($user);
         //当前用户的 关注/粉丝/文章数
         $userInfo  = User::withCount(['stars','fans','posts'])->find($user->id);
 
@@ -44,8 +46,11 @@ class UserController extends Controller
 
         //当前用户关注的用户，以及关注用户的  关注/粉丝/文章数
         $stars = $userInfo->stars;
+        //dd($stars);
         $susers = User::whereIn('id',$stars->pluck('star_id'))
             ->withCount(['stars','fans','posts'])->get();
+
+        //dd($susers);
 
         //当前用户的粉丝用户，以及粉丝用户的 关注/粉丝/文章数
 

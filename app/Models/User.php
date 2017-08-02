@@ -65,7 +65,7 @@ class User extends Authenticatable
         return $this->fans()->where('fan_id',$id)->count();
     }
 
-    //当前用户是否关注某个id
+    //当前用户是 否关注某个id
     public function hasStar($id) {
         return $this->stars()->where('star_id',$id)->count();
     }

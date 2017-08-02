@@ -11,7 +11,7 @@
 
 
             <footer>关注：{{$userInfo->stars_count}}｜粉丝：{{$userInfo->fans_count}}｜文章：{{$userInfo->posts_count}} </footer>
-            @include('face.layout.like',['target_user'=>$userInfo])
+            {{--@include('face.layout.like',['target_user'=>$userInfo])--}}
 
         </blockquote>
     </div>
@@ -37,19 +37,24 @@
                 </div>
                 <!-- /.tab-pane -->
                 <div class="tab-pane" id="tab_2">
+                    @if($susers->count()!=0)
                     @foreach($susers as $suser)
-                    <div class="blog-post" style="margin-top: 30px">
-                        <p class="">{{$suser->name}}</p>
-                        <p class="">关注：{{$suser->stars_count}} | 粉丝：{{$suser->fans_count}}｜ 文章：{{$suser->posts_count}}</p>
-                    </div>
+
+                        <div class="blog-post" style="margin-top: 30px">
+                            <p class="">{{$suser->name}}</p>
+                            <p class="">关注：{{$suser->stars_count}} | 粉丝：{{$suser->fans_count}}｜ 文章：{{$suser->posts_count}}</p>
+                        </div>
+
                     @endforeach
+                    @endif
+
                 </div>
                 <!-- /.tab-pane -->
                 <div class="tab-pane" id="tab_3">
                     @foreach($fusers as $fuser)
                         <div class="blog-post" style="margin-top: 30px">
                             <p class="">{{$fuser->name}}</p>
-                            <p class="">关注：{{$fuser->stars_count}} | 粉丝：{{$fuser->fans_count}}｜ 文章：{{$suser->posts_count}}</p>
+                            <p class="">关注：{{$fuser->stars_count}} | 粉丝：{{$fuser->fans_count}}｜ 文章：{{$fuser->posts_count}}</p>
                         </div>
                     @endforeach
                     {{--@include('face.layout.like',['target_user'=>$userInfo])--}}

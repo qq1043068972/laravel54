@@ -18,7 +18,7 @@ Route::get('logout','Face\LoginController@logout');
 Route::get('register','Face\RegisterController@create');
 Route::post('register','Face\RegisterController@store');
 
-Route::group([],function(){
+Route::group(['middleware' => ['checklogin']],function(){
 
     //个人设置
     Route::get('user/me/setting','Face\UserController@setting');
@@ -39,5 +39,9 @@ Route::group([],function(){
     //赞
     Route::get('posts/{post}/zan','Face\PostController@zan');
     Route::get('posts/{post}/unzan','Face\PostController@unzan');
+
+    //专题
+    Route::get('topics/{topic}','Face\TopicController@index');
+    Route::post('topics/submit/{topic}','Face\TopicController@submit');
 
 });

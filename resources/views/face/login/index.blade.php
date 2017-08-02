@@ -45,10 +45,11 @@
                 <input type="checkbox" value="1" name="is_remember"> 记住我
             </label>
         </div>
+        @include('face.layout.validatesError')
+        @include('face.layout.error')
         <button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
         <a href="{{url('register')}}" class="btn btn-lg btn-primary btn-block" type="submit">去注册>></a>
 
-        @include('face.layout.validatesError')
     </form>
 
 

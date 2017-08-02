@@ -59,3 +59,10 @@ $factory->define(App\Models\Fan::class, function (Faker\Generator $faker) {
     ];
 });
 
+//专题
+$factory->define(App\Models\Topic::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->sentence(1),
+    ];
+});
+
