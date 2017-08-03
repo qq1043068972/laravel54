@@ -2,158 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b369da1-ac2f-45ba-b99f-bb15e53f09fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Comment.php" afterPath="$PROJECT_DIR$/app/Models/Comment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Fan.php" afterPath="$PROJECT_DIR$/app/Models/Fan.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/PostTopic.php" afterPath="$PROJECT_DIR$/app/Models/PostTopic.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Topic.php" afterPath="$PROJECT_DIR$/app/Models/Topic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Zan.php" afterPath="$PROJECT_DIR$/app/Models/Zan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/layout/main.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/layout/main.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/layout/nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/layout/nav.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/layout/success.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/layout/success.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/login/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/login/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/posts/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/posts/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/posts/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/posts/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/register/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/register/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/face/user/userCentre.blade.php" afterPath="$PROJECT_DIR$/resources/views/face/user/userCentre.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/bootstrap337/js/npm.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/bootstrap337/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/css/blog.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/css/blog.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/css/wangEditor.min.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/css/wangEditor.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/public/MyStyle/face/fonts/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/public/MyStyle/face/fonts/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/public/MyStyle/face/fonts/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/public/MyStyle/face/fonts/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/images/user.jpeg" afterPath="$PROJECT_DIR$/public/MyStyle/face/images/user.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/js/MyLayer.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/js/MyLayer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/js/wangEditor.min.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/js/wangEditor.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/js/ylaravel.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/js/ylaravel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/layui.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/layui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/layui.mobile.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/layui.mobile.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/code.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/code.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/laydate/icon.png" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/laydate/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/laydate/laydate.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/laydate/laydate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/icon-ext.png" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/icon.png" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/layer.css" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/layer.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/loading-0.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/loading-1.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/css/modules/layer/default/loading-2.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/font/iconfont.eot" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/font/iconfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/font/iconfont.svg" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/font/iconfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/font/iconfont.ttf" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/font/iconfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/font/iconfont.woff" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/font/iconfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/0.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/0.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/1.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/10.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/10.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/11.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/11.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/12.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/12.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/13.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/13.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/14.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/14.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/15.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/15.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/16.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/16.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/17.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/17.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/18.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/18.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/19.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/19.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/2.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/20.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/20.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/21.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/21.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/22.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/22.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/23.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/23.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/24.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/24.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/25.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/25.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/26.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/26.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/27.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/27.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/28.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/28.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/29.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/29.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/3.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/30.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/30.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/31.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/31.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/32.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/32.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/33.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/33.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/34.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/34.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/35.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/35.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/36.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/36.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/37.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/37.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/38.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/38.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/39.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/39.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/4.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/40.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/40.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/41.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/41.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/42.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/42.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/43.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/43.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/44.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/44.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/45.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/45.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/46.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/46.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/47.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/47.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/48.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/48.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/49.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/49.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/5.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/5.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/50.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/50.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/51.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/51.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/52.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/52.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/53.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/53.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/54.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/54.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/55.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/55.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/56.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/56.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/57.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/57.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/58.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/58.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/59.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/59.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/6.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/6.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/60.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/60.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/61.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/61.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/62.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/62.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/63.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/63.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/64.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/64.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/65.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/65.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/66.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/66.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/67.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/67.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/68.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/68.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/69.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/69.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/7.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/7.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/70.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/70.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/71.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/71.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/8.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/8.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/images/face/9.gif" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/images/face/9.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/jquery-3.1.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/dest/layui.all.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/dest/layui.all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/code.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/code.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/element.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/element.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/flow.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/flow.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/form.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/jquery.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/laydate.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/laydate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/layedit.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/layedit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/layer.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/layer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/laypage.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/laypage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/laytpl.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/laytpl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/mobile.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/mobile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/tree.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/tree.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/upload.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/upload.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/lay/modules/util.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/lay/modules/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/MyStyle/layui/layui.js" afterPath="$PROJECT_DIR$/public/MyStyle/face/layui/layui.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -174,7 +27,7 @@
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="342">
               <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
@@ -183,35 +36,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding>
-                <element signature="e#461#535#0#PHP" expanded="false" />
-                <element signature="e#541#1162#0#PHP" expanded="false" />
-                <element signature="e#1168#1269#0#PHP" expanded="false" />
-                <element signature="e#1275#2040#0#PHP" expanded="false" />
-                <element signature="e#2424#2652#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/user/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="159" column="76" lean-forward="false" selection-start-line="159" selection-start-column="76" selection-end-line="159" selection-end-column="76" />
               <folding>
-                <element signature="e#2887#2915#0#HTML" expanded="true" />
-                <element signature="e#3482#4152#0#HTML" expanded="false" />
-                <element signature="e#4168#4209#0#HTML" expanded="false" />
-                <element signature="e#4721#5440#0#HTML" expanded="false" />
                 <marker date="1501776030754" expanded="true" signature="6587:6607" ph="..." />
                 <marker date="1501776030754" expanded="true" signature="6633:6641" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Zan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Topic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Topic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostTopic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/PostTopic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Fan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Models/AdminUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -254,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Face/UserController.php" />
         <option value="$PROJECT_DIR$/resources/views/face/layout/left.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Models/Post.php" />
         <option value="$PROJECT_DIR$/resources/views/face/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Face/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php" />
@@ -286,17 +198,18 @@
         <option value="$PROJECT_DIR$/resources/views/admin/layout/error.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/app/Models/AdminUser.php" />
-        <option value="$PROJECT_DIR$/app/Models/Fan.php" />
-        <option value="$PROJECT_DIR$/app/Models/Zan.php" />
-        <option value="$PROJECT_DIR$/app/Models/Topic.php" />
-        <option value="$PROJECT_DIR$/app/Models/PostTopic.php" />
-        <option value="$PROJECT_DIR$/app/Models/Comment.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" />
         <option value="$PROJECT_DIR$/routes/admin.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Zan.php" />
+        <option value="$PROJECT_DIR$/app/Models/Topic.php" />
+        <option value="$PROJECT_DIR$/app/Models/PostTopic.php" />
+        <option value="$PROJECT_DIR$/app/Models/Post.php" />
+        <option value="$PROJECT_DIR$/app/Models/Fan.php" />
+        <option value="$PROJECT_DIR$/app/Models/Comment.php" />
       </list>
     </option>
   </component>
@@ -333,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,58 +360,6 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -524,6 +386,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel54" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,38 +444,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -702,11 +555,12 @@
       <workItem from="1501664917220" duration="56000" />
       <workItem from="1501677399076" duration="11583000" />
       <workItem from="1501729877870" duration="25561000" />
+      <workItem from="1501776399055" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132756000" />
+    <option name="totallyTimeSpent" value="132858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -761,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6407">
           <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3162">
           <caret line="960" column="33" lean-forward="false" selection-start-line="960" selection-start-column="33" selection-end-line="960" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,9 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="404" lean-forward="false" selection-start-line="1" selection-start-column="404" selection-end-line="1" selection-end-column="404" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
           <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,12 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#237#358#0#PHP" expanded="false" />
-            <element signature="e#364#786#0#PHP" expanded="false" />
-            <element signature="e#792#1684#0#PHP" expanded="false" />
-            <element signature="e#1690#1980#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="79" column="65" lean-forward="false" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,71 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/PostTopic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Topic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Zan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Fan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/AdminUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="57" column="7" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="57" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="69" column="28" lean-forward="true" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="105" column="7" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="118" lean-forward="false" selection-start-line="18" selection-start-column="118" selection-end-line="18" selection-end-column="118" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,13 +878,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="872" column="9" lean-forward="false" selection-start-line="872" selection-start-column="9" selection-end-line="872" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="594">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#461#535#0#PHP" expanded="false" />
@@ -1147,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="342">
           <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
@@ -1160,13 +910,73 @@
         <state relative-caret-position="345">
           <caret line="159" column="76" lean-forward="false" selection-start-line="159" selection-start-column="76" selection-end-line="159" selection-end-column="76" />
           <folding>
-            <element signature="e#2887#2915#0#HTML" expanded="true" />
-            <element signature="e#3482#4152#0#HTML" expanded="false" />
-            <element signature="e#4168#4209#0#HTML" expanded="false" />
-            <element signature="e#4721#5440#0#HTML" expanded="false" />
             <marker date="1501776030754" expanded="true" signature="6587:6607" ph="..." />
             <marker date="1501776030754" expanded="true" signature="6633:6641" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Zan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Topic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/PostTopic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Fan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/AdminUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
