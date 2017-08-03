@@ -4,6 +4,6 @@
                 aria-hidden="true">
             &times;
         </button>
-        {{\Illuminate\Support\Facades\Session::get('success')}}
+        {{Session::get('success')}}
     </div>
 @endif

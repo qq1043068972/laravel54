@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
+    use SoftDeletes;
     protected $table = 'comments';
     protected $primaryKey = 'id';
     protected $fillable = ['content','user_id','post_id'];

@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Topic extends Model
 {
+    use SoftDeletes;
     protected $table = 'topics';
     protected $primaryKey = 'id';
     protected $fillable = ['name'];

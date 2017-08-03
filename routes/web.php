@@ -13,12 +13,14 @@
 
 Route::get('login','Face\LoginController@index');
 Route::post('login','Face\LoginController@login');
-Route::get('logout','Face\LoginController@logout');
+
 
 Route::get('register','Face\RegisterController@create');
 Route::post('register','Face\RegisterController@store');
 
 Route::group(['middleware' => ['checklogin']],function(){
+
+    Route::get('logout','Face\LoginController@logout');
 
     //个人设置
     Route::get('user/me/setting','Face\UserController@setting');
@@ -45,3 +47,5 @@ Route::group(['middleware' => ['checklogin']],function(){
     Route::post('topics/submit/{topic}','Face\TopicController@submit');
 
 });
+
+include_once("admin.php");

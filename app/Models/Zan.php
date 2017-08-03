@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Zan extends Model
 {
+    use SoftDeletes;
     protected $table = 'zans';
     protected $primaryKey = 'id';
     protected $fillable = ['user_id','post_id'];

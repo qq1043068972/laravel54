@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Fan extends Model
 {
+    use SoftDeletes;
     protected $table = 'fans';
     protected $primaryKey = 'id';
     protected $fillable = ['fan_id','star_id'];

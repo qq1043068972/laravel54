@@ -13,7 +13,7 @@
     <title>登陆</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{MyStyle}}/bootstrap337/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{face}}/bootstrap337/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="http://v3.bootcss.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">

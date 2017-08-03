@@ -10,14 +10,14 @@
 
     <title>laravel for blog</title>
     <!-- Bootstrap core CSS -->
-    <link href="{{MyStyle}}/bootstrap337/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{face}}/bootstrap337/css/bootstrap.min.css" rel="stylesheet">
 
 
 
     <!-- Custom styles for this template -->
-    <link href="{{MyStyle}}/css/blog.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{MyStyle}}/css/wangEditor.min.css">
-    {{--<link href="{{MyStyle}}/layui/css/layui.css" rel="stylesheet">--}}
+    <link href="{{face}}/css/blog.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{face}}/css/wangEditor.min.css">
+    {{--<link href="{{face}}/layui/css/layui.css" rel="stylesheet">--}}
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,11 +51,11 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{MyStyle}}/layui/jquery-3.1.1.js"></script>
-<script src="{{MyStyle}}/bootstrap337/js/bootstrap.js"></script>
-<script src="{{MyStyle}}/js/ylaravel.js"></script>
-<script src="{{MyStyle}}/layui/layui.js"></script>
-<script type="text/javascript" src="{{MyStyle}}/js/MyLayer.js"></script>
+<script src="{{face}}/layui/jquery-3.1.1.js"></script>
+<script src="{{face}}/bootstrap337/js/bootstrap.js"></script>
+<script src="{{face}}/js/ylaravel.js"></script>
+<script src="{{face}}/layui/layui.js"></script>
+<script type="text/javascript" src="{{face}}/js/MyLayer.js"></script>
 @yield('js')
 
 </body>

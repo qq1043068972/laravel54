@@ -6,7 +6,7 @@
 
     <div class="col-sm-8">
         <blockquote>
-            <p><img src="{{MyStyle}}/images/user.jpeg" alt="" class="img-rounded" style="border-radius:500px; height: 40px"> {{$userInfo->name}}
+            <p><img src="{{face}}/images/user.jpeg" alt="" class="img-rounded" style="border-radius:500px; height: 40px"> {{$userInfo->name}}
             </p>
 
 
@@ -77,7 +77,7 @@
         var user_id = target.attr("like-user");
         if(btnText == "取消关注"){
             $.ajax({
-                url:"http://localhost:8082/laravel54/public/user/"+user_id+"/unfan",
+                url:"http://localhost:8082/laravel54/public/users/"+user_id+"/unfan",
                 method:'GET',
                 dataType:'json',
                 success:function (data) {

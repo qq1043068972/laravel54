@@ -20,5 +20,5 @@
 
 @endsection
 @section('js')
-    <script type="text/javascript" src="{{MyStyle}}/js/wangEditor.min.js"></script>
+    <script type="text/javascript" src="{{face}}/js/wangEditor.min.js"></script>
 @endsection
