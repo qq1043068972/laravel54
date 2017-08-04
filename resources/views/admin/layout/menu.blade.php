@@ -36,16 +36,13 @@
             </dd>
         </dl>
         <dl id="menu-member">
-            <dt><i class="Hui-iconfont">&#xe60d;</i> 会员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt><i class="Hui-iconfont">&#xe60d;</i>文章管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a href="member-list.html" title="会员列表">会员列表</a></li>
-                    <li><a href="member-del.html" title="删除的会员">删除的会员</a></li>
-                    <li><a href="member-level.html" title="等级管理">等级管理</a></li>
-                    <li><a href="member-scoreoperation.html" title="积分管理">积分管理</a></li>
-                    <li><a href="member-record-browse.html" title="浏览记录">浏览记录</a></li>
-                    <li><a href="member-record-download.html" title="下载记录">下载记录</a></li>
-                    <li><a href="member-record-share.html" title="分享记录">分享记录</a></li>
+                    <li><a href="{{url('/admin/posts')}}" title="会员列表">文章列表</a></li>
+                    <li><a href="{{url('/admin/posts/del')}}" title="会员列表">已删除文章</a></li>
+                    <li><a href="{{url('/admin/posts/refused')}}" title="会员列表">已拒绝文章</a></li>
+
                 </ul>
             </dd>
         </dl>
